@@ -18,7 +18,7 @@ int main()
 if(N>0)
 printf("Yes is contain a repeted digit");
 else
-printf("No, ir doesnt contain any repeated digit");
+printf("No, it doesnt contain any repeated digit");
 
 return 0;
 }
