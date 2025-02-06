@@ -17,13 +17,13 @@ int main()
 
 
     for(i=0; i<5; i++){
-    int sum = 0;
+    int row_sum = 0;
 
     for (j = 0; j < 5; j++)
     {
-        sum += arr[i][j];
+        row_sum += arr[i][j];
     }
-    printf("%d ", sum);
+    printf("%d ", row_sum);
     }
 
 
