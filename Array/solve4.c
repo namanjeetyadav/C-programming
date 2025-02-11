@@ -32,14 +32,14 @@ int main()
 
     else
     {
-        printf("We can proceed ");
+        // printf("We can proceed ");
         // C doesn't allow dynamic memory allocation so we are giving a maximum value to the length of array
 
         printf("Enter the elements of first Matrix ");
         for (a1 = 0; a1 < n_rows1; a1++)
         {
             for (b1 = 0; b1 < n_column1; b1++)
-            {
+                        {
 
                 scanf("%d", &arr1[a1][b1]);
             }
@@ -56,16 +56,11 @@ int main()
             
         }
 
-
-        
-
-        
-       
-
         int i;
         int j;
         int z;
-        // int sum;
+        printf("Result");
+        printf("\n");
         for (i = 0; i < n_rows1; i++)
         {
             for (z = 0; z < n_column2; z++)
@@ -83,3 +78,4 @@ int main()
     }
     return 0;
 }
+
